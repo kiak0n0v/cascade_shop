@@ -1,0 +1,234 @@
+@font-face {
+  font-family: 'Suisse Intl';
+  src: url(../static/fonts/SuisseIntl-Medium.otf) format('truetype');
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+header {
+  display: flex;
+  background: #e6e6e6;
+  height: 80px;
+}
+
+.logo-text {
+  width: 320px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-top-width: 0;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+    display: flex;
+    width: 320px;
+}
+
+.text {
+    color: #000;
+    text-align: center;
+    font-family: Suisse Intl;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.navbar div {
+    display: flex;
+    width: 100%;
+
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-top-width: 0;
+    background: #fff;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #000;
+    text-align: center;
+    font-family: Suisse Intl;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.support-button {
+    width: 320px;
+    margin-left: auto;
+
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: #000;
+
+    color: #fff;
+    text-align: center;
+    font-family: Suisse Intl;
+    font-size: 18.75px;
+    font-weight: 500;
+}
+
+.title {
+    height: 640px;
+    display: flex;
+    justify-content: center;
+}
+
+.title-content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;;
+}
+
+h1 {
+    color: #000;
+    text-align: center;
+    font-family: Suisse Intl;
+    font-size: 71.53px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.bottom-container {
+    display: block;
+    width: 100%;
+    height: 800px;
+    background: rgba(0, 0, 0, 0.10);
+}
+
+.products {
+    display: block;
+    width: 50%;
+    height: 800px;
+}
+
+.big-product {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background: #FFF;
+}
+
+.little-products {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background: #FFF;
+}
+
+.half-product {
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+.left {
+    margin-right: auto;
+}
+
+.right {
+    margin-left: auto;
+}
+
+.title-data {
+    display: block;
+    margin: 40px 0 0 48px;
+}
+
+.text-margin {
+    margin-bottom: 24px;
+}
+
+.product-title {
+    color: #000;
+    font-family: Suisse Intl;
+    font-size: 45.78px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.product-title-data a {
+    color: #000;
+    font-family: Suisse Intl;
+    font-size: 18.75px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.little-product-title {
+    color: #000;
+    font-family: Suisse Intl;
+    font-size: 36.62px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.little-product-title-data a {
+    color: #000;
+    font-family: Suisse Intl;
+    font-size: 18.75px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.big-price-container {
+    position: absolute;
+    bottom: 40px;
+    left: 48px;
+    width: 95%;
+}
+
+.price {
+    position: absolute;
+    left: 0;
+    color: #000;
+    font-family: Suisse Intl;
+    font-size: 18.75px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.buy-button {
+    position: relative;
+    right: 48px;
+    color: #000;
+    text-align: right;
+    font-family: Suisse Intl;
+    font-size: 18.75px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    text-decoration-line: underline;
+}
+
+.little-price-container {
+    position: absolute;
+    bottom: 40px;
+}
+
+.left-price {
+    left: 48px;
+    width: 90%;
+}
+
+.right-price {
+    right: 48px;
+    width: 90%;
+}
